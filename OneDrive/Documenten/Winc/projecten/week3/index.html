@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- hier zet je de code in de head tags -->
+    <title>To Do list</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer type="text/javascript" src="api-client.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <!-- hier zet je de code in de body tags-->
+    <header></header>
+    <main>
+      <div id="NieuweTask">
+        <h1>To Do List</h1>
+        <input
+          type="text"
+          id="nieuweTaskInvoer"
+          placeholder="mijn nieuwe task is..."
+        />
+        <span onclick="addButton" class="addButton" id="addButton"> Add</span>
+      </div>
+      <ul id="taskList"></ul>
+    </main>
+  </body>
+</html>
